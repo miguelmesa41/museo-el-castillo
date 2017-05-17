@@ -1,7 +1,7 @@
 *{margin: 0px;
 padding: 0px;}
 
-@media only screen and (min-width: 1280px) { 
+@media only screen and (min-width: 769px) { 
 
 html{background: url(../imagenes/fondo.jpg);}
 
@@ -365,9 +365,9 @@ color: #fff;}
 
 
 
-/*atablet*/
+/*taablet*/
 
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:361px) and (max-width:768px) {
 
 html{background: url(../imagenes/fondo.jpg);}
 
