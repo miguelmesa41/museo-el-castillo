@@ -1,0 +1,981 @@
+*{margin: 0px;
+padding: 0px;}
+
+@media only screen and (min-width: 1280px) { 
+
+html{background: url(../imagenes/fondo.jpg);}
+
+body{background: #fff;
+width: 1280px;
+height: 2215px;
+margin:0px auto 0px auto;}
+
+@font-face {font-family: "Roboto-Regular";
+ src: url(../fonts/Roboto-Regular.ttf) format("truetype");}
+@font-face {font-family: "Roboto-Light";
+ src: url(../fonts/Roboto-Light.ttf) format("truetype");}
+@font-face {font-family: "Roboto-Bold";
+ src: url(../fonts/Roboto-Bold.ttf) format("truetype");}
+
+#caja_superior{width: 1280px;
+height: 36px;
+background: #9A7D0D;}
+
+#facebok{width: 30px;
+height: 30px;
+margin: 2px 0px 0px 1070px;
+float: left;
+background: none;}
+
+#twiter{width: 30px;
+height: 30px;
+margin: 2px 0px 0px 11px;	
+float: left;
+background: none;}
+
+#google{width: 30px;
+height: 30px;
+float: left;
+margin: 2px 0px 0px 5px;
+background: none;}
+
+#youtube{width: 37px;
+height: 26px;
+float: left;
+margin: 4px 0px 0px 11px;
+background: none;}
+
+header{width: 100%;
+height: 110px;
+background: #7E1126;
+z-index:1000;
+position: relative;}
+
+
+#hora {float: left;}
+
+#logo{margin: 0px 0px 0px 477px;}
+
+nav{height: 40px;
+width: 1280px;
+background: #7E1126;
+margin-top: 24px;
+z-index:1000;
+position: relative;}
+
+ul{list-style-type: none;
+position: relative;}
+
+li{float: left;
+position: relative;}
+
+a{width:147px; 
+height:36px;
+background:#f4f2cf; 
+display: block;
+font-family: 'Roboto-Regular', sans-serif;
+font-size: 22px;
+text-decoration: none;
+text-align: center;}
+
+
+#busca{width: 250px;
+height: 38px;
+background-repeat: no-repeat;
+margin: 1px 20px 0px 0px;
+float: left;}
+
+#home{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;
+margin-left: 50px;}
+
+#historia{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#jardines{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#tarantela{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#actividades{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#editorial{color: #fff;
+background: #9A7D0D;
+padding: 2px 0px 2px 0px;
+border-right:2px #7E1126 solid;
+margin-right: 35px;}
+
+
+#foto_principal {width: 1179px;
+height: 512px;
+background-image: url(../imagenes/principal.jpg);
+margin: 24px 0px 0px 50px;}
+
+#titulo1{font-family: 'Roboto-Regular', sans-serif;
+color: #fff;
+width: 196px;
+height: 24px;
+font-size: 19px;
+background: #9A7D0D;
+margin-top: 24px;
+text-align: center;}
+
+#parrafo_principal {font-family: 'Roboto-Regular', sans-serif;
+width: 156px;
+height: 476px;
+color: #fff;
+font-size: 12px;
+background: #7E1126;
+padding: 12px 12px 0px 12px;
+text-align:justify;
+float: right;}
+
+h3{margin-left: 50px;
+font-size: 16px;}
+
+#seccion_jardines{width: 380px;
+height: 310px;
+background-image: url(../imagenes/jardines.jpg);
+margin: 52px 25px 5px 48px;
+float: left;}
+
+#titulo2{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #fff;
+font-size: 19px;
+background: #9A7D0D;
+text-align: center;}
+
+#parrafojardines{font-family: 'Roboto-Regular', sans-serif;
+width: 356px;
+height: 68px;
+color: #fff;
+font-size: 12px;
+background: #7E1126;
+padding: 12px;
+margin-top: 298px;
+text-align:justify;}
+
+#seccion_tarantela{width: 380px;
+height: 310px;
+background-image: url(../imagenes/munecas.jpg);
+margin-top: 52px;
+float: left;}
+
+#titulo3{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color:#fff;
+font-size: 19px;
+background: #9A7D0D;
+text-align: center;
+margin-left: 0px;}
+
+#parrafotarantela{font-family: 'Roboto-Regular', sans-serif;
+width: 356px;
+height: 68px;
+color: #fff;
+font-size: 12px;
+background: #7E1126;
+padding: 12px;
+margin: 298px 0px 30px 0px;
+text-align:justify;}
+
+
+#seccion_actividades{width: 784px;
+height: 328px;
+background-image: url(../imagenes/ardilla.jpg);
+margin: 122px 0px 0px 48px;
+float: left;}
+
+#titulo4{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color:#fff;
+font-size: 19px;
+background: #9A7D0D;
+text-align: center;}
+
+#parrafoactividades{font-family: 'Roboto-Regular', sans-serif;
+width:760px;
+height: 55px;
+color:#fff;
+font-size: 12px;
+background: #7E1126;
+margin:318px 0px 30px 0px;
+padding: 12px;
+text-align:justify;}
+
+#seccion_editorial{width: 597px;
+height: 310px;
+background-image: url(../imagenes/editorial.jpg);
+float: right;
+margin: 0px 48px 51px 0px;}
+
+#parrafoeditorial{font-family: 'Roboto-Regular', sans-serif;
+width:216px;
+height: 262px;
+color:#fff;
+font-size: 12px;
+background: #7E1126;
+margin-bottom: 20px; 
+padding: 12px;
+text-align:justify;
+float:right;}
+
+#titulo5{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color:#fff;
+font-size: 19px;
+background: #9A7D0D;
+text-align: center;}
+
+#bannerudem{width: 370px;
+height: 310px;
+background-repeat: no-repeat;
+margin: 51px 48px 8px 29px;}
+
+#bannerudea{width: 370px;
+height: 536px;
+margin: 0px 48px 30px 29px;}
+
+#banneraizon{width: 557px;
+height: 310px;
+background-image: url(../imagenes/publi.jpg);
+margin:0px 0px 51px 48px;
+float:left;}
+
+#cajaroja1{width: 1280px;
+height: 64px;
+background: #7E1126;
+float: left;}
+
+#cajacafe{width: 1280px;
+height: 87px;
+background: #9A7D0D;
+float: left;}
+
+#cajaroja2{width: 1280px;
+height: 18px;
+background: #7E1126;
+float: left;}
+
+#navinf{height: 40px;
+width: 1102px;
+margin: 12px 0px 12px 148px;}
+
+#homeinf{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;
+margin-left: 50px;}
+
+#historiainf{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#jardinesinf{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#tarantelainf{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#actividadesinf{color: #fff;
+background: #9A7D0D;
+border-right:2px #7E1126 solid;
+padding: 2px 0px 2px 0px;}
+
+#editorialinf{color: #fff;
+background: #9A7D0D;
+padding: 2px 0px 2px 0px;
+border-right:2px #7E1126 solid;
+margin-right: 35px;}
+
+footer{padding-left: 119px;
+padding-top: 10px;
+font-family: 'Roboto-Regular', sans-serif;
+font-size: 16px;
+color: #fff;}
+
+#rincones{display:none;}
+
+#borde{display: none;}
+#borde2{display: none;}	
+#borde3{display: none;}
+#borde4{display: none;}
+#borde5{display: none;}
+#borde6{display: none;}
+
+#galer{display: none;}
+#galeria{display: none;}
+
+#parrafo_principalr{display: none;}
+#parrafojardinesr{display: none;}
+#parrafotarantelar{display: none;}
+#parrafoeditorialr{display: none;}
+#parrafoactividadesr{display: none;}
+
+#busca2{display: none;}
+#logoc{display: none;}
+#home2{display: none;}
+#historia2{display: none;}
+#jardines2{display: none;}
+#tarantela2{display: none;}
+#actividades2{display: none;}
+#editorial2{display: none;}
+#parrafocel{display: none;}
+#rincones2{display: none;}
+#bordecel{display: none;}
+#bordecel2{display: none;}
+#titulocel{display: none;}
+#parrafo_principalc{display: none;}
+#parrafo_editorialc{display: none;}
+#parrafo_actividadc{display: none;}
+#parrafo_tarantelac{display: none;}
+#parrafo_jardinesc{display: none;}
+#titulocel{display: none;}
+#tituloeditorialc{display: none;}
+#tituloactividadesc{display: none;}
+#titulotarantelac{display: none;}
+#titulojardinesc{display: none;}
+#facebok2{display: none;}
+#twiter2{display: none;}
+#google2{display: none;}
+#youtube2{display: none;}
+}
+
+
+
+/*atablet*/
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+html{background: url(../imagenes/fondo.jpg);}
+
+body{background: #fff;
+width: 100%;
+height: 2340px;
+margin: auto;}
+
+header{width: 100%;
+height: 98px;
+background: #7E1126;}
+
+#caja_superior{display: none;}
+
+#logo{margin-left: 190px;}
+
+#fecha{display: none;}
+#hora{display: none;}
+
+nav{height: 121px;
+width: 100%;
+background: #9A7D0D ;
+z-index:1000;
+margin-top: auto;
+border: none;}
+
+ul{list-style-type: none;
+position: relative;}
+
+li{float: left;
+position: relative;}
+
+a{width:120px; 
+height:36px;
+background:none; 
+display: block;
+font-family: 'Roboto-Regular', sans-serif;
+font-size: 22px;
+text-decoration: none;
+text-align: center;
+display: inline-block;}
+
+
+#home{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin: 32px 0px 0px auto;}
+
+#historia{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 32px;}
+
+#jardines{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 32px;}
+
+#tarantela{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 32px;}
+
+#actividades{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 32px;}
+
+#editorial{color: #fff;
+background: #9A7D0D;
+padding: 2px 0px 2px 0px;
+border-right:none;
+margin:32px auto 0px 0px;}
+
+.icon-home{display: block;
+font-size: 30px;}
+.icon-hour-glass{display: block;
+font-size: 30px;}
+.icon-leaf{display: block;
+font-size: 30px;}
+.icon-shop{display: block;
+font-size: 30px;}
+.icon-hand{display: block;
+font-size: 30px;}
+.icon-pencil{display: block;
+font-size: 30px;}
+
+#foto_principal {width: 100%;
+height: 250px;
+background-image: url(../imagenes/imagenprincipalresponsive.jpg);
+margin: -25px 0px 0px auto;}
+
+#titulo1{font-family: 'Roboto-Regular', sans-serif;
+color: #7E1126;
+width: 196px;
+height: 24px;
+font-size: 35px;
+background: none;
+margin-left: 302px;
+text-align: center;
+padding-top: 40px;}
+
+h3{display: none;}
+
+#parrafo_principalr {font-family: 'Roboto-Regular', sans-serif;
+width: 521px;
+height: 71px;
+color: #000;
+font-size: 12px;
+background: none;
+padding-bottom: 0px;
+text-align:justify;
+margin: 40px 124px 100px 124px;
+float: right;}
+
+.icon-tag{float: right;
+font-size: 35px;
+margin-right: 19px; 
+z-index:1000px;
+padding-bottom: 10px; }
+
+#rincones{
+	font-family: 'Roboto-Bold', sans-serif;
+	font-size: 2em;
+	color: #000;
+	padding-bottom: 8px;
+	margin-left: 19px;}
+
+#borde{border-bottom: black solid 2px;
+width: 710px;
+margin-left: 20px;}
+
+#borde2{border-bottom: black solid 2px;
+width: 710px;
+margin: auto 0px 0px 20px;}
+
+#borde3{border-bottom: black solid 2px;
+width: 710px;
+margin: 33px 0px 0px 20px;}
+
+#borde4{border-bottom: black solid 2px;
+width: 710px;
+margin: 28px 0px 0px 20px;}
+
+#borde5{border-bottom: black solid 2px;
+width: 710px;
+margin:28px 0px 0px 20px;}
+
+#borde6{border-bottom: black solid 2px;
+width: 710px;
+margin: -268px 0px 0px 20px;}
+
+
+#seccion_jardines{
+	width: 410px;
+	height: 175px;
+background-image: url(../imagenes/jardinesresponsive.jpg);
+background-repeat: no-repeat;
+margin:31px 10px 5px 19px;
+float: left;
+padding-bottom: 27px;}
+
+#titulo2{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 40px;
+text-align: center;
+margin-left: 538px;}
+
+#parrafojardinesr{font-family: 'Roboto-Regular', sans-serif;
+width: 309px;
+height: 54px;
+color: #7E1126;
+font-size: 12px;
+padding: 12px;
+margin: 85px 0px 0px 410px;
+padding-bottom: 81px;}
+
+#seccion_tarantela{
+	width: 254px;
+	height: 175px;
+background-image: url(../imagenes/tarantelaresponsive.jpg);
+margin: 32px 0px 0px 20px;
+float: auto;}
+
+#titulo3{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 40px;
+text-align: center;
+margin: auto 0px 0px 530px;}
+
+#parrafotarantelar{font-family: 'Roboto-Regular', sans-serif;
+width: 376px;
+height: 60px;
+color: #7E1126;
+font-size: 12px;
+float: left;
+margin: 33px 0px 0px 330px;
+padding-bottom: 87px;}
+
+#seccion_actividades{width: 410px;
+height: 175px;
+background-image: url(../imagenes/actividadresponsive.jpg);
+background-repeat: no-repeat;
+margin: 32px 0px 0px 20px;}
+
+#titulo4{width: 196px;
+height: 24px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 40px;
+text-align: center;
+margin: 32px 0px 0px 505px;}
+
+#parrafoactividadesr{font-family: 'Roboto-Regular', sans-serif;
+width: 310px;
+height: 60px;
+color: #7E1126;
+font-size: 12px;
+float: left;
+margin: -110px 0px 0px 417px; 
+padding-bottom: 87px;}
+
+.icon-folder-images{float: right;
+font-size: 40px;
+margin-right: 19px; 
+z-index:1000px;
+padding-bottom: 10px; }
+
+#galer{font-family: 'Roboto-Bold', sans-serif;
+font-size: 2em;
+color: #000;
+padding-bottom: 8px;
+margin: 20px 0px 0px 19px;}
+
+#seccion_editorial{width: 255px;
+height: 175px;
+background-image: url(../imagenes/editoresponsive.jpg);
+background-repeat: no-repeat;
+margin: 47px 0px 0px 20px;}
+
+#titulo5{width: 160px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 40px;
+text-align: center;
+margin: auto 0px 0px 560px;}
+
+#parrafoeditorialr{font-family: 'Roboto-Regular', sans-serif;
+width: 375px;
+height: 56px;
+color: #7E1126;
+font-size: 12px;
+float: left;
+margin: -420px 20px 0px 360px;}
+
+#banneraizon{width: 708px;
+height: 238px;
+background-image: url(../imagenes/publiresponsive.jpg);
+background-repeat: no-repeat;
+margin: 80px 0px 0px 20px;}
+
+#cajacafe{width:768px;
+height:266px;
+background: #9A7D0D;
+float: left;
+margin-top: -90px;}
+
+#busca2{margin-top: 360px;
+width: 243px;
+height: 37px;
+margin-left: 20px;}
+
+#facebok2{margin-left: 170px;}
+#twiter2{margin-left: -60px;}
+#google2{margin-left: -60px;}
+#youtube2{margin-left: -60px;}
+
+footer{width: 728px;
+height: 69px;
+font-size: 11px;
+font-family: 'Roboto-Regular', sans-serif;
+color: #fff;
+margin: 160px 0px 0px 20px;}
+
+
+#cajaroja2{display: none;}
+#bannerudea{display: none;}
+#bannerudem{display: none;}
+#parrafoactividades{display: none;}
+#parrafojardines{display: none;}
+#parrafotarantela{display: none;}
+#parrafoeditorial{display: none;}
+#navinf{display: none;}
+#homeinf{display: none;}
+#historiainf{display: none;}
+#jardinesinf{display: none;}
+#tarantelainf{display: none;}
+#actividadesinf{display: none;}
+#editorialinf{display: none;}
+#busca{display: none;}
+#logoc{display: none;}
+#home2{display: none;}
+#historia2{display: none;}
+#jardines2{display: none;}
+#tarantela2{display: none;}
+#actividades2{display: none;}
+#editorial2{display: none;}
+#parrafocel{display: none;}
+#rincones2{display: none;}
+#bordecel{display: none;}
+#bordecel2{display: none;}
+#titulocel{display: none;}
+#parrafo_principalc{display: none;}
+#parrafo_principal{display: none;}
+#titulocel{display: none;}
+#parrafo_principalc{display: none;}
+#parrafo_editorialc{display: none;}
+#parrafo_actividadc{display: none;}
+#parrafo_tarantelac{display: none;}
+#parrafo_jardinesc{display: none;}
+#titulocel{display: none;}
+#tituloeditorialc{display: none;}
+#tituloactividadesc{display: none;}
+#titulotarantelac{display: none;}
+#titulojardinesc{display: none;}
+#galeria{display: none;}
+}
+
+/*acelular*/
+
+@media only screen and (max-width: 360px){
+
+html{background: none;}
+
+body{background: #fff;
+width: 360px;
+height: 2758px;
+margin: 0px auto 0px auto;}
+
+header{width: 100%;
+height: 71px;
+background: #7E1126;}
+
+@font-face {font-family: "Roboto";
+ src: url(../fonts/Roboto.ttf) format("truetype");}
+
+#caja_superior{display: none;}
+
+#logoc{background: url(../imagenes/logocel.png);
+	background-repeat: no-repeat;
+	margin: 17px 0px 0px 99px;}
+
+#fecha{display: none;}
+#hora{display: none;}
+#busca{display: none;}
+#logo{display: none;}
+
+nav{height: 367px;
+width: 100%;
+background: #9A7D0D ;
+z-index:1000;
+margin-top: auto;
+border: none;}
+
+ul{list-style-type: none;
+position: relative;}
+
+li{float: left;
+position: relative;}
+
+a{width:45px; 
+height:36px;
+background:none; 
+display: block;
+font-family: 'Roboto-Regular', sans-serif;
+font-size: 22px;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+border-bottom: white solid 2px; }
+
+#home{display: none;}
+#home2{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin: 9px 0px 0px 41px;}
+
+#historia{display: none;}
+#historia2{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 9px;}
+
+#jardines{display: none;}
+#jardines2{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 9px;}
+
+#tarantela{display: none;}
+#tarantela2{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 9px;}
+
+#actividades{display: none;}
+#actividades2{color: #fff;
+background: #9A7D0D;
+border-right:none;
+padding: 2px 0px 2px 0px;
+margin-top: 9px;}
+
+#editorial{display: none;}
+#editorial2{color: #fff;
+background: #9A7D0D;
+padding: 2px 0px 2px 0px;
+border-right:none;
+margin: 9px auto 0px 0px;}
+
+#parrafocel{color: #fff;
+font-size: 14px;
+margin: -273px 0px 100px 38px;
+font-family: 'Roboto-Regular', sans-serif;
+text-align: justify;
+width:280px;
+height:229px;}
+
+#rincones2{font-family: 'Roboto-Bold', sans-serif;
+font-size:26px;
+margin: 0px 38px 0px 38px;}
+
+#foto_principal{width: 283px;
+height: 175px;
+background-image: url(../imagenes/historiacel.jpg);
+background-repeat: no-repeat;
+margin: 34px 0px 0px 34px;}
+
+#titulocel{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 65px 0px 0px 34px;}
+
+#bordecel{border-bottom: black solid 2px;
+width: 319px;
+margin: 14px 0px 0px 20px;}
+
+#parrafo_principalc{color: #7E1126;
+font-size: 16px;
+font-family: 'Roboto-Bold', sans-serif;
+margin:18px 0px 0px 35px;}
+
+#bordecel{border-bottom: black solid 2px;
+width: 319px;
+margin: 18px 0px 0px 20px;}
+
+#bordecel2{border-bottom: black solid 2px;
+width: 319px;
+margin: 0px 0px 70px 20px;}
+
+#titulojardinesc{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 33px 0px 0px 34px;}
+
+#seccion_jardines{width: 283px;
+height: 175px;
+background-image: url(../imagenes/jardinescel.jpg);
+background-repeat: no-repeat;
+margin: 34px 0px 0px 34px;}
+
+#parrafo_jardinesc{color: #7E1126;
+font-size: 16px;
+font-family: 'Roboto-Bold', sans-serif;
+margin: 19px 0px 0px 35px;}
+
+#titulotarantelac{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 33px 0px 0px 34px;}
+
+#seccion_tarantela{width: 283px;
+height: 175px;
+background-image: url(../imagenes/tarantelacel.jpg);
+background-repeat: no-repeat;
+margin: 34px 0px 0px 34px;}
+
+#parrafo_tarantelac{color: #7E1126;
+font-size: 16px;
+font-family: 'Roboto-Bold', sans-serif;
+margin: 19px 0px 0px 35px;}
+
+#titulotarantelac{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 33px 0px 0px 34px;}
+
+#seccion_tarantela{width: 283px;
+height: 175px;
+background-image: url(../imagenes/tarantelacel.jpg);
+background-repeat: no-repeat;
+margin: 34px 0px 0px 34px;}
+
+#parrafo_actividadc{color: #7E1126;
+font-size: 16px;
+font-family: 'Roboto-Bold', sans-serif;
+margin:19px 0px 0px 35px;}
+
+#tituloactividadesc{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 33px 0px 0px 34px;}
+
+#seccion_actividades{width: 283px;
+height: 175px;
+background-image: url(../imagenes/actividades-cel.jpg);
+background-repeat: no-repeat;
+margin: 34px 0px 0px 34px;}
+
+#parrafo_editorialc{color: #7E1126;
+font-size: 16px;
+font-family: 'Roboto-Bold', sans-serif;
+margin: 19px 0px 0px 35px;}
+
+
+
+#tituloeditorialc{font-family:'Roboto-Regular', sans-serif;
+color: #7E1126;
+font-size: 35px;
+margin: 33px 0px 0px 34px;}
+
+#seccion_editorial{width: 283px;
+height: 175px;
+background-image: url(../imagenes/editorialcel.jpg);
+background-repeat: no-repeat;
+margin: 33px 0px 0px 34px;}
+
+
+#facebok2{margin: 0px -4px 0px 170px;}
+#twiter2{margin-right:  -3px;}
+#google2{margin-left: -10px;}
+#youtube2{margin-left: -10px;}
+
+
+.icon-folder-images{float: right;
+font-size:40px; 
+z-index:1000px;
+padding-bottom: 10px;
+margin-right: 36px; }
+
+#galeria{font-family: 'Roboto-Bold', sans-serif;
+font-size: 30px;
+color: #000;
+padding-bottom: 8px;
+margin: 53px 0px 39px 36px;}
+
+#banneraizon2{width: 318px;
+height: 175px;
+background-image: url(../imagenes/bannercel.jpg);
+background-repeat: no-repeat;
+margin-left: 20px;
+float:left;}
+
+#cajacafe{width:323px;
+height:150px;
+background: #9A7D0D;
+float: left;
+margin: -95px 0px 0px 20px; }
+
+#busca2{margin-top: 95px;
+width: 115px;
+height: 17px;
+margin-left: 35px;}
+
+footer{display: none;}
+
+
+#galer{display: none;}
+#rincones{display: none;}
+#titulo1{display: none;}
+#titulo2{display: none;}
+#titulo3{display: none;}
+#titulo4{display: none;}
+#titulo5{display: none;}
+#parrafo_principal{display:none;}
+#parrafo_principalr{display:none;}
+#parrafojardines{display:none;}
+#parrafojardinesr{display:none;}
+#parrafotarantela{display: none;}
+#parrafotarantelar{display: none;}
+#parrafoactividades{display: none;}
+#parrafoactividadesr{display: none;}
+#parrafoeditorial{display: none;}
+#parrafoeditorialr{display: none;}
+#bannerudem{display: none;}
+#bannerudea{display: none;}
+h3{display: none;}
+#navinf{display: none;}
+}
